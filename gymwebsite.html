@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            margin:0px;
+            padding: 0px;
+            background: url('https://media.istockphoto.com/id/1132086660/photo/side-view-of-beautiful-muscular-woman-running-on-treadmill.jpg?s=612x612&w=0&k=20&c=5Vq_BJjG7sbIyKIP-Adu0pChReDXm0dC7BVPvto2M0I=');
+            color: white;
+            background-size: cover;
+        }
+        .left{
+            border: 2px solid red;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+            text-align: center;
+        }
+        .left img{
+            width: 123px;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid green;
+        }
+        .mid{
+            display: block;
+            border: 2px solid greenyellow;
+            margin: 0px auto;
+            width: 33%;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="./logo.avif" alt="">
+            <div>Vineeth Fitness</div>
+        </div>
+        <div class="right">
+            i am right
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">fitnessmeasure</a></li>
+                <li><a href="#">Bmicheck</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
